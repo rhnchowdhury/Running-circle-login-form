@@ -5,25 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="container">
         <div class="login">
             <h2>Login</h2>
-            <form action="#">
+            <form class="login-form">
                 <div class="input-box">
-                    <input type="text" placeholder="Username" class="input-text" />
+                    <input type="email" />
+                    <label>Email</label>
                 </div>
                 <div class="input-box">
-                    <input type="password" placeholder="Password" class="input-text" />
+                    <input type="password" />
+                    <label>Password</label>
                 </div>
-                <div class="input-box">
-                    <input type="submit" value="Sign in" />
+                <div class="pass">
+                    <a href="#" class="pass-a">Forgot your Password?</a>
                 </div>
+                <button type="submit" class="btn">Login</button>
                 <div class="footer">
-                    <a>Forgot Password ?</a>
-                    <a>SingUp</a>
+                    <a href="#" class="sign">Sing Up</a>
                 </div>
             </form>
         </div>
