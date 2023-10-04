@@ -30,7 +30,6 @@ h2 {
 .login {
     position: absolute;
     width: 400px;
-    background-color: red;
 }
 
 .login-form {
@@ -116,4 +115,27 @@ input:focus~label {
     font-size: 1em;
     font-weight: 500;
     text-decoration: none;
+}
+
+span {
+    position: absolute;
+    left: 0;
+    width: 32px;
+    height: 6px;
+    background-color: #2c4766;
+    border-radius: 8px;
+    transform-origin: 128px;
+    transform: scale(2.2) rotate(calc(var(--i)*360deg/50));
+    animation: animate 3s linear infinite;
+    animation-delay: calc(var(--i)*(3s/50));
+}
+
+@keyframes animate {
+    0% {
+        background-color: #0ef;
+    }
+
+    25% {
+        background-color: #2c4766;
+    }
 }
