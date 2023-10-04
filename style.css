@@ -72,7 +72,7 @@ label {
 input:focus~label {
     top: 20px;
     font-size: .8em;
-    background-color: #1f293a;
+    background-color: #081b29;
     padding: 0 6px;
     color: #0ef;
 }
